@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- region Splash logo -->
+    <dimen name="splash_logo_width_height">66dp</dimen>
+    <dimen name="splash_logo_margin">5dp</dimen>
+    <!-- endregion -->
+
+    <!-- region 引导页 小圆点 -->
+    <dimen name="dot_width_height">10dp</dimen>
+    <dimen name="dot_margin">5dp</dimen>
+    <!-- endregion -->
+
+
+</resources>

@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">智慧城市</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- region 网络设置 Preference Titles -->
+    <string name="network_setting_header">网络设置</string>
+
+    <!-- Messages Preferences -->
+    <string name="network_setting_ip_address_title">IP 地址:</string>
+    <string name="network_setting_port_title">端口:</string>
+
+    <!-- Error message -->
+    <string name="network_setting_error_message">IP 地址或端口错误</string>
+    <!-- endregion -->
+
+    <!-- region 底部导航栏 -->
+    <!-- 首页、全部服务、新闻、活动、个人中心 -->
+    <string name="item_navigation_bar_title_1">首页</string>
+    <string name="item_navigation_bar_title_2">全部服务</string>
+    <string name="item_navigation_bar_title_3">新闻</string>
+    <string name="item_navigation_bar_title_4">活动</string>
+    <string name="item_navigation_bar_title_5">个人中心</string>
+    <!-- endregion -->
+
+    <!-- region toolbar -->
+    <string name="toolbar_title_1">@string/app_name</string>
+    <string name="toolbar_title_2">@string/item_navigation_bar_title_2</string>
+    <string name="toolbar_title_3">@string/item_navigation_bar_title_3</string>
+    <string name="toolbar_title_4">@string/item_navigation_bar_title_4</string>
+    <string name="toolbar_title_5">@string/item_navigation_bar_title_5</string>
+    <!-- endregion -->
+
+    <!-- region Recommended Service 推荐服务 -->
+    <string name="recommended_service_title">推荐服务</string>
+    <string name="recommended_service_title_1">88VIP卡</string>
+    <string name="recommended_service_title_2">的哥尊享卡</string>
+    <string name="recommended_service_title_3">教师卡</string>
+    <string name="recommended_service_title_4">白衣天使卡</string>
+    <string name="recommended_service_title_5">建兴业主卡</string>
+    <string name="recommended_service_title_6">公交实况</string>
+    <string name="recommended_service_title_7">社保费</string>
+    <string name="recommended_service_title_more_service">更多服务</string>
+    <!-- endregion-->
+
+    <!-- region news category (新闻类别) -->
+    <string name="news_category_1">推荐</string>
+    <string name="news_category_2">时政</string>
+    <string name="news_category_3">基层</string>
+    <string name="news_category_4">广播</string>
+    <string name="news_category_5">电视</string>
+    <string name="news_category_6">旅游</string>
+    <string name="news_category_7">视频</string>
+    <string name="news_category_8">专题</string>
+    <string name="news_category_9">不忘初心，牢记使命</string>
+    <!-- endregion -->
+
+    <!-- region item items (新闻项) -->
+
+    <string name="news_items_title_1_1">1_1</string>
+    <string name="news_items_title_1_2">1_2</string>
+    <string name="news_items_title_1_3">1_3</string>
+    <string name="news_items_desc_1_1">1_1</string>
+    <string name="news_items_desc_1_2">1_2</string>
+    <string name="news_items_desc_1_3">1_3</string>
+    <string name="news_items_watch_number_1_1">1</string>
+    <string name="news_items_watch_number_1_2">2</string>
+    <string name="news_items_watch_number_1_3">3</string>
+
+    <string name="news_items_title_2_1">2_1</string>
+    <string name="news_items_title_2_2">2_2</string>
+    <string name="news_items_title_2_3">2_3</string>
+    <string name="news_items_desc_2_1">2_1</string>
+    <string name="news_items_desc_2_2">2_2</string>
+    <string name="news_items_desc_2_3">2_3</string>
+    <string name="news_items_watch_number_2_1">2</string>
+    <string name="news_items_watch_number_2_2">2</string>
+    <string name="news_items_watch_number_2_3">2</string>
+
+    <string name="news_items_title_3_1">3_1</string>
+    <string name="news_items_title_3_2">3_2</string>
+    <string name="news_items_title_3_3">3_3</string>
+    <string name="news_items_desc_3_1">3_1</string>
+    <string name="news_items_desc_3_2">3_2</string>
+    <string name="news_items_desc_3_3">3_3</string>
+    <string name="news_items_watch_number_3_1">3</string>
+    <string name="news_items_watch_number_3_2">3</string>
+    <string name="news_items_watch_number_3_3">3</string>
+
+    <string name="news_items_title_4_1">4_1</string>
+    <string name="news_items_title_4_2">4_2</string>
+    <string name="news_items_title_4_3">4_3</string>
+    <string name="news_items_desc_4_1">4_1</string>
+    <string name="news_items_desc_4_2">4_2</string>
+    <string name="news_items_desc_4_3">4_3</string>
+    <string name="news_items_watch_number_4_1">4</string>
+    <string name="news_items_watch_number_4_2">4</string>
+    <string name="news_items_watch_number_4_3">4</string>
+
+    <string name="news_items_title_5_1">5_1</string>
+    <string name="news_items_title_5_2">5_2</string>
+    <string name="news_items_title_5_3">5_3</string>
+    <string name="news_items_desc_5_1">5_1</string>
+    <string name="news_items_desc_5_2">5_2</string>
+    <string name="news_items_desc_5_3">5_3</string>
+    <string name="news_items_watch_number_5_1">5</string>
+    <string name="news_items_watch_number_5_2">5</string>
+    <string name="news_items_watch_number_5_3">5</string>
+
+    <string name="news_items_title_6_1">6_1</string>
+    <string name="news_items_title_6_2">6_2</string>
+    <string name="news_items_title_6_3">6_3</string>
+    <string name="news_items_desc_6_1">6_1</string>
+    <string name="news_items_desc_6_2">6_2</string>
+    <string name="news_items_desc_6_3">6_3</string>
+    <string name="news_items_watch_number_6_1">6</string>
+    <string name="news_items_watch_number_6_2">6</string>
+    <string name="news_items_watch_number_6_3">6</string>
+
+    <string name="news_items_title_7_1">7_1</string>
+    <string name="news_items_title_7_2">7_2</string>
+    <string name="news_items_title_7_3">7_3</string>
+    <string name="news_items_desc_7_1">7_1</string>
+    <string name="news_items_desc_7_2">7_2</string>
+    <string name="news_items_desc_7_3">7_3</string>
+    <string name="news_items_watch_number_7_1">7</string>
+    <string name="news_items_watch_number_7_2">7</string>
+    <string name="news_items_watch_number_7_3">7</string>
+
+    <string name="news_items_title_8_1">8_1</string>
+    <string name="news_items_title_8_2">8_2</string>
+    <string name="news_items_title_8_3">8_3</string>
+    <string name="news_items_desc_8_1">8_1</string>
+    <string name="news_items_desc_8_2">8_2</string>
+    <string name="news_items_desc_8_3">8_3</string>
+    <string name="news_items_watch_number_8_1">8</string>
+    <string name="news_items_watch_number_8_2">8</string>
+    <string name="news_items_watch_number_8_3">8</string>
+
+    <string name="news_items_title_9_1">9_1</string>
+    <string name="news_items_title_9_2">9_2</string>
+    <string name="news_items_title_9_3">9_3</string>
+    <string name="news_items_desc_9_1">9_1</string>
+    <string name="news_items_desc_9_2">9_2</string>
+    <string name="news_items_desc_9_3">9_3</string>
+    <string name="news_items_watch_number_9_1">9</string>
+    <string name="news_items_watch_number_9_2">9</string>
+    <string name="news_items_watch_number_9_3">9</string>
+
+    <!-- endregion -->
+
+    <!-- region personal center item title 个人中心选项 -->
+    <string name="personal_center_item_title_1">我的卡包</string>
+    <string name="personal_center_item_title_2">个人信息</string>
+    <string name="personal_center_item_title_3">账号安全</string>
+    <string name="personal_center_item_title_4">投诉建议</string>
+    <string name="personal_center_item_title_5">会员权益</string>
+    <string name="personal_center_item_title_6">关于我们</string>
+    <!-- endregion -->
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- region -->
+    <color name="guide_page_default">#FF6200EE</color>
+
+    <color name="guide_page_1">#144673</color>
+    <color name="guide_page_2">#ffa727</color>
+    <color name="guide_page_3">#9575cd</color>
+    <color name="guide_page_4">#9b2ebd</color>
+    <color name="guide_page_5">#c04851</color>
+    <!-- endregion -->
+
+    <!-- region 小圆点 -->
+    <color name="guide_page_dot_uncheck">#66FFFFFF</color>
+    <color name="guide_page_dot_check">#FFFFFFFF</color>
+    <!-- endregion -->
+
+    <color name="fragment_content_background">#f1f1f1</color>
+
+    <!-- region app_bar_color -->
+    <color name="app_bar_color">#393a3e</color>
+    <!-- endregion -->
+
+    <!-- region 导航栏 选中否 -->
+    <color name="navigation_bar_uncheck">#272727</color>
+    <color name="navigation_bar_check">#2398fc</color>
+    <!-- endregion -->
+
+    <!-- region news category 新闻标题颜色 -->
+    <color name="news_Category_title_check">#f64b52</color>
+    <color name="news_Category_title_uncheck">#676767</color>
+    <color name="news_Category_image_check">#dd434a</color>
+    <!-- endregion -->
+
+
+</resources>

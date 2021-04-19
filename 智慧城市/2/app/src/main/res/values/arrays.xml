@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="guide_page_color">
+        <item>@color/guide_page_1</item>
+        <item>@color/guide_page_2</item>
+        <item>@color/guide_page_3</item>
+        <item>@color/guide_page_4</item>
+        <item>@color/guide_page_5</item>
+    </array>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+    <string-array name="item_navigation_bar_titles">
+        <item>@string/item_navigation_bar_title_1</item>
+        <item>@string/item_navigation_bar_title_2</item>
+        <item>@string/item_navigation_bar_title_3</item>
+        <item>@string/item_navigation_bar_title_4</item>
+        <item>@string/item_navigation_bar_title_5</item>
+    </string-array>
+
+    <array name="fragment_content">
+        <!-- 首页、全部服务、新闻、活动、个人中心 -->
+        <item>@layout/fragment_content_home_page</item>
+        <item>@layout/fragment_content_full_services</item>
+        <item>@layout/fragment_content_news</item>
+        <item>@layout/fragment_content_events</item>
+        <item>@layout/fragment_content_personal_center</item>
+    </array>
+
+    <string-array name="toolbar_titles">
+        <item>@string/toolbar_title_1</item>
+        <item>@string/toolbar_title_2</item>
+        <item>@string/toolbar_title_3</item>
+        <item>@string/toolbar_title_4</item>
+        <item>@string/toolbar_title_5</item>
+    </string-array>
+
+    <string-array name="recommended_service_titles">
+        <item>@string/recommended_service_title_1</item>
+        <item>@string/recommended_service_title_2</item>
+        <item>@string/recommended_service_title_3</item>
+        <item>@string/recommended_service_title_4</item>
+        <item>@string/recommended_service_title_5</item>
+        <item>@string/recommended_service_title_6</item>
+        <item>@string/recommended_service_title_7</item>
+    </string-array>
+
+    <string-array name="news_category_titles">
+        <item>@string/news_category_1</item>
+        <item>@string/news_category_2</item>
+        <item>@string/news_category_3</item>
+        <item>@string/news_category_4</item>
+        <item>@string/news_category_5</item>
+        <item>@string/news_category_6</item>
+        <item>@string/news_category_7</item>
+        <item>@string/news_category_8</item>
+        <item>@string/news_category_9</item>
+    </string-array>
+
+    <!-- region 新闻项 -->
+    <string-array name="news_items_titles">
+        <item>@string/news_items_title_1_1</item>
+        <item>@string/news_items_title_1_2</item>
+        <item>@string/news_items_title_1_3</item>
+
+        <item>@string/news_items_title_2_1</item>
+        <item>@string/news_items_title_2_2</item>
+        <item>@string/news_items_title_2_3</item>
+
+        <item>@string/news_items_title_3_1</item>
+        <item>@string/news_items_title_3_2</item>
+        <item>@string/news_items_title_3_3</item>
+
+        <item>@string/news_items_title_4_1</item>
+        <item>@string/news_items_title_4_2</item>
+        <item>@string/news_items_title_4_3</item>
+
+        <item>@string/news_items_title_5_1</item>
+        <item>@string/news_items_title_5_2</item>
+        <item>@string/news_items_title_5_3</item>
+
+        <item>@string/news_items_title_6_1</item>
+        <item>@string/news_items_title_6_2</item>
+        <item>@string/news_items_title_6_3</item>
+
+        <item>@string/news_items_title_7_1</item>
+        <item>@string/news_items_title_7_2</item>
+        <item>@string/news_items_title_7_3</item>
+
+        <item>@string/news_items_title_8_1</item>
+        <item>@string/news_items_title_8_2</item>
+        <item>@string/news_items_title_8_3</item>
+
+        <item>@string/news_items_title_9_1</item>
+        <item>@string/news_items_title_9_2</item>
+        <item>@string/news_items_title_9_3</item>
+    </string-array>
+
+    <string-array name="news_items_desc">
+        <item>@string/news_items_desc_1_1</item>
+        <item>@string/news_items_desc_1_2</item>
+        <item>@string/news_items_desc_1_3</item>
+
+        <item>@string/news_items_desc_2_1</item>
+        <item>@string/news_items_desc_2_2</item>
+        <item>@string/news_items_desc_2_3</item>
+
+        <item>@string/news_items_desc_3_1</item>
+        <item>@string/news_items_desc_3_2</item>
+        <item>@string/news_items_desc_3_3</item>
+
+        <item>@string/news_items_desc_4_1</item>
+        <item>@string/news_items_desc_4_2</item>
+        <item>@string/news_items_desc_4_3</item>
+
+        <item>@string/news_items_desc_5_1</item>
+        <item>@string/news_items_desc_5_2</item>
+        <item>@string/news_items_desc_5_3</item>
+
+        <item>@string/news_items_desc_6_1</item>
+        <item>@string/news_items_desc_6_2</item>
+        <item>@string/news_items_desc_6_3</item>
+
+        <item>@string/news_items_desc_7_1</item>
+        <item>@string/news_items_desc_7_2</item>
+        <item>@string/news_items_desc_7_3</item>
+
+        <item>@string/news_items_desc_8_1</item>
+        <item>@string/news_items_desc_8_2</item>
+        <item>@string/news_items_desc_8_3</item>
+
+        <item>@string/news_items_desc_9_1</item>
+        <item>@string/news_items_desc_9_2</item>
+        <item>@string/news_items_desc_9_3</item>
+    </string-array>
+
+    <string-array name="news_items_watch_numbers">
+        <item>@string/news_items_watch_number_1_1</item>
+        <item>@string/news_items_watch_number_1_2</item>
+        <item>@string/news_items_watch_number_1_3</item>
+
+        <item>@string/news_items_watch_number_2_1</item>
+        <item>@string/news_items_watch_number_2_2</item>
+        <item>@string/news_items_watch_number_2_3</item>
+
+        <item>@string/news_items_watch_number_3_1</item>
+        <item>@string/news_items_watch_number_3_2</item>
+        <item>@string/news_items_watch_number_3_3</item>
+
+        <item>@string/news_items_watch_number_4_1</item>
+        <item>@string/news_items_watch_number_4_2</item>
+        <item>@string/news_items_watch_number_4_3</item>
+
+        <item>@string/news_items_watch_number_5_1</item>
+        <item>@string/news_items_watch_number_5_2</item>
+        <item>@string/news_items_watch_number_5_3</item>
+
+        <item>@string/news_items_watch_number_6_1</item>
+        <item>@string/news_items_watch_number_6_2</item>
+        <item>@string/news_items_watch_number_6_3</item>
+
+        <item>@string/news_items_watch_number_7_1</item>
+        <item>@string/news_items_watch_number_7_2</item>
+        <item>@string/news_items_watch_number_7_3</item>
+
+        <item>@string/news_items_watch_number_8_1</item>
+        <item>@string/news_items_watch_number_8_2</item>
+        <item>@string/news_items_watch_number_8_3</item>
+
+        <item>@string/news_items_watch_number_9_1</item>
+        <item>@string/news_items_watch_number_9_2</item>
+        <item>@string/news_items_watch_number_9_3</item>
+    </string-array>
+    <!-- endregion -->
+
+    <string-array name="personal_center_item_titles">
+        <item>@string/personal_center_item_title_1</item>
+        <item>@string/personal_center_item_title_2</item>
+        <item>@string/personal_center_item_title_3</item>
+        <item>@string/personal_center_item_title_4</item>
+        <item>@string/personal_center_item_title_5</item>
+        <item>@string/personal_center_item_title_6</item>
+    </string-array>
+</resources>

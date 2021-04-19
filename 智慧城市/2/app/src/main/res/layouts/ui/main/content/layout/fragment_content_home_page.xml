@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.content.ContentFragment">
+    <!-- 首页 -->
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- 轮播图 -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_view_ui_main_content_home_page_carousel"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_margin="8dp"
+                android:elevation="5dp"
+                app:cardBackgroundColor="#eee"
+                app:cardCornerRadius="16dp"
+                app:cardMaxElevation="10dp">
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/view_pager_ui_main_content_home_page_carousel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_view_ui_main_content_home_page_recommended_service"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:layout_constraintTop_toBottomOf="@id/card_view_ui_main_content_home_page_carousel"
+                android:layout_margin="8dp"
+                android:elevation="5dp"
+                app:cardBackgroundColor="#FFF"
+                app:cardCornerRadius="16dp"
+                app:cardMaxElevation="10dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text_view_ui_main_content_home_page_recommended_service"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="@string/recommended_service_title"
+                        android:textSize="20sp"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <View
+                        android:id="@+id/view_ui_main_content_home_page_recommended_service"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#f1f1f1"
+                        app:layout_constraintBottom_toTopOf="@id/recycler_view_ui_main_content_home_page_recommended_service"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/text_view_ui_main_content_home_page_recommended_service" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recycler_view_ui_main_content_home_page_recommended_service"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:overScrollMode="never"
+                        android:scrollbars="none"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <include
+                android:id="@+id/include_ui_main_content_home_page_news"
+                layout="@layout/item_news"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintTop_toBottomOf="@id/card_view_ui_main_content_home_page_recommended_service"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
