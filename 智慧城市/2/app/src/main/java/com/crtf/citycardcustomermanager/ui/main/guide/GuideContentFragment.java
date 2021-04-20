@@ -1,5 +1,7 @@
 package com.crtf.citycardcustomermanager.ui.main.guide;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 
@@ -51,7 +53,17 @@ public class GuideContentFragment extends Fragment {
         switch (this.fragmentLayout) {
             case R.layout.fragment_guide_network_settings:
                 FloatingActionButton floatingActionButton = root.findViewById(R.id.floating_action_button_ui_main_guide_network_setting);
-                floatingActionButton.setOnClickListener(view -> complete());
+                floatingActionButton.setOnClickListener(view -> {
+                    View inflate = getLayoutInflater().inflate(R.layout.item_guide_network_settings, null);
+                    new AlertDialog.Builder(getContext())
+                            .setTitle(getResources().getString(R.string.network_setting_header))
+                            .setView(inflate)
+                            .setPositiveButton("确定",(dialog,which) -> {
+                                complete();
+                            }).setNegativeButton("取消",(dialog,which) -> {
+
+                            }).create().show();
+                });
                 break;
             case R.layout.fragment_guide_content:
                 break;

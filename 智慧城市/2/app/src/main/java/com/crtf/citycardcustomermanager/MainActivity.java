@@ -3,6 +3,7 @@ package com.crtf.citycardcustomermanager;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.cardview.widget.CardView;
 import androidx.core.view.GestureDetectorCompat;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -44,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
     private RecyclerView navigationBar;
     private Toolbar toolbar;
+    private CardView search;
     private ViewPager content;
 
     @Override
@@ -66,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
         // region 拿到 View
         this.navigationBar = findViewById(R.id.recycler_view_main_navigation_bar);
         this.toolbar = findViewById(R.id.tool_bar_main);
+        this.search = findViewById(R.id.card_view_app_bar_search);
         this.content = findViewById(R.id.view_pager_ui_main_content_content);
         // endregion
 
@@ -163,8 +166,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setToolbarTitle(int position) {
-        if (this.toolbarTitles.length >= position && position >= 0) {
+        if (this.toolbar != null && this.toolbarTitles.length >= position && position >= 0) {
             this.toolbar.setTitle(this.toolbarTitles[position]);
+            int visibility;
+            if (position == 0){
+                visibility = View.VISIBLE;
+            }else visibility = View.GONE;
+            this.search.setVisibility(visibility);
         }
     }
 
